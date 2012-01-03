@@ -1,0 +1,19 @@
+Program to do a byte-by-byte comparison between two directories.
+
+I know it's been done before, but I wanted to write something that 
+does it the way that I want.  Specifically, this is used by me to
+verify my backups that I do to external USB drives.  After doing a copy
+the hard drive and the OS can both confirm that the data was written
+correctly, but the data could actually be written incorrectly.  When
+dealing with terabytes of data, especially with my 200 GB databases 
+of stock data, I didn't want to risk it, so I thought I would
+just create something really basic that would recurse through
+the directories and do a byte-by-byte comparison. 
+
+I suppose I could have used some form of find and cmp, but this
+was interesting to me so I figured why not.
+
+There's still a lot I need to do to clean this code up, it's
+pretty rough, but it works.  I figured I might as well dump it up 
+since I may or may not revisit this, since my goal was to get it
+working over the New Year's weekend.

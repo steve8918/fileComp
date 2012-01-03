@@ -1,0 +1,9 @@
+build/
+stage/
+Release/
+Debug/
+*.ncb
+*.sln
+*.vcproj
+*.user
+*.suo
